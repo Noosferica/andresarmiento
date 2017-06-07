@@ -41,7 +41,7 @@ app.use(session({
   // store: new MongoStore({
   //   url: entorno.MONGODB_URI,
   //   autoReconnect: true
-  })
+  // })
 }));
 
 app.set('view engine', 'pug');
