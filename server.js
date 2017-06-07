@@ -37,7 +37,7 @@ app.use(methodOverride());
 app.use(session({
   resave: true,
   saveUninitialized: true,
-  secret: config.sessionSecret,
+  secret: 'Andres',
   // store: new MongoStore({
   //   url: entorno.MONGODB_URI,
   //   autoReconnect: true
