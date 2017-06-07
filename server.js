@@ -44,7 +44,7 @@ app.use(session({
   // })
 }));
 
-app.set('view engine', 'pug');
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 const api = require('./routes');
