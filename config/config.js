@@ -1,7 +1,7 @@
 'use strict'
 
 const config = {
-  sessionSecret: 'belleza',
+  sessionSecret: 'andres',
 
   development: {
     PORT: 3000,
@@ -9,7 +9,8 @@ const config = {
   },
   production: {
     PORT: 3003,
-    MONGODB_URI: 'mongodb://geoUser:cibsolar1609@localhost/GeoDB'
+    MONGODB_URI: 'mongodb://geoUser:cibsolar1609@localhost/GeoDB',
+    sessionSecret: 'Andres',
   }
 }
 
