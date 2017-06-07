@@ -15,12 +15,12 @@ const MongoStore      = require('connect-mongo')(session);
 const chalk           = require('chalk');
 const entorno         = require('./config/').config()
 
-mongoose.Promise = global.Promise;
-mongoose.connect(entorno.MONGODB_URI);
-mongoose.connection.on('error', () => {
-  console.log('%s MongoDB connection error. Please make sure MongoDB is running.', chalk.red('✗'));
-  process.exit();
-});
+// mongoose.Promise = global.Promise;
+// mongoose.connect(entorno.MONGODB_URI);
+// mongoose.connection.on('error', () => {
+//   console.log('%s MongoDB connection error. Please make sure MongoDB is running.', chalk.red('✗'));
+//   process.exit();
+// });
 
 const app = express();
 
@@ -38,9 +38,9 @@ app.use(session({
   resave: true,
   saveUninitialized: true,
   secret: config.sessionSecret,
-  store: new MongoStore({
-    url: entorno.MONGODB_URI,
-    autoReconnect: true
+  // store: new MongoStore({
+  //   url: entorno.MONGODB_URI,
+  //   autoReconnect: true
   })
 }));
 
