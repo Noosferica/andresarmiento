@@ -13,6 +13,7 @@ import 'angular-messages';
 import 'angular-material';
 import 'angular-material-icons';
 import 'angular-moment';
+import 'angular-scroll';
 import 'moment';
 
 import './components';
@@ -28,7 +29,7 @@ const requires = [
   'ngMaterial',
   'ngMdIcons',
   'ngSanitize',
-
+  'duScroll',
   'app.components',
   'app.home'
   

@@ -5,14 +5,85 @@
 	 font-size: 3em;
  }
 
+ .toolbar {
+   position: fixed;
+ }
+
 .diseño {
+  padding-top: 150px;
 	font-family: 'Bubbler One', sans-serif;
-  position:fixed;
-  height:200px;
   left:50%;
-  top:20%;
   margin-left:-150px;
-  margin-top:-100px;
   text-align: center;
 
 }
+
+section {
+  font-family: 'Bubbler One', sans-serif;
+}
+
+.top {
+  margin: 50px 50px 50px;
+  float: right;
+}
+
+img {
+      max-width: 100%;
+    }
+    nav {
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #fff;
+      background: rgba(255, 255, 255, 0.8);
+    }
+    nav li, nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center
+    }
+    nav li, nav a {
+      display: inline-block;
+    }
+    nav a {
+      padding: 20px;
+      color: #333;
+      text-decoration: none;
+    }
+    a:hover {
+      background: #fff;
+    }
+    a.active {
+      background: #00AC7F;
+      color: #fff;
+    }
+    .wrap {
+      position: relative;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+    section {
+      padding: 20px 0 20px 0;
+      margin-bottom: 30px;
+    }
+    footer {
+      text-align: center;
+    }
+    button {
+      font-size: 18px;
+      border: 0;
+      padding: 15px 30px;
+      background: #00AC7F;
+      color: #fff;
+      cursor: pointer;
+    }
+    #container {
+      overflow: auto;
+      height: 400px;
+      padding: 0;
+      margin: 10px 0 20px 0;
+    }
