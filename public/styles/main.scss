@@ -1,8 +1,14 @@
 
 @import 'angular-material';
 
+
  h1 {
 	 font-size: 3em;
+   color: #00AC7F;
+ }
+
+ .h1_an {
+  color: white;
  }
 
  
@@ -38,37 +44,47 @@ section {
   background-size: cover;
 }
 
+#section-1 {
+  height: 300px;
+}
+
+// .section-1-img {
+//   background: url(https://unsplash.it/1080/720?image=1017) no-repeat;
+//   background-size: cover;
+// }
+
 #section-4 {
   background-color: #00AC7F;
 }
 
 .logo {
-  width: 130px;
+  width: 70px;
   margin-right: 30px;
 }
 
   .logo_ionic {
-  width: 110px;
+  width: 60px;
 }
 
   .logo_node {
-    width: 300px;
+    width: 90px;
     margin-left: 30px;
   }
 
 .logo_UI {
-  width: 130px;
+  width: 80px;
   margin-right: 30px;
 }
 
   .logo_UI_css {
-  width: 90px;
+  width: 60px;
   }
 
-.logo_UI_sass {
-  width: 130px;
-  margin-left: 30px;
-  }
+  .logo_UI_sass {
+    width: 100px;
+    margin-left: 30px;
+    }
+
 .top {
   margin: 50px 50px 50px;
   float: right;
