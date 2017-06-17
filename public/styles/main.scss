@@ -5,6 +5,8 @@
 	 font-size: 3em;
  }
 
+ 
+
  .toolbar {
    position: fixed;
  }
@@ -12,14 +14,27 @@
 .diseño {
   padding-top: 150px;
 	font-family: 'Bubbler One', sans-serif;
+  color: white;
   left:50%;
-  margin-left:-150px;
   text-align: center;
 
 }
 
+  a {
+    color: white;
+  }
+
+  .redes {
+    margin: 10px 20px;
+  }
+
 section {
   font-family: 'Bubbler One', sans-serif;
+}
+
+#section-0 {
+  background: url(https://unsplash.it/1080/720?image=901) no-repeat;
+  background-size: cover;
 }
 
 .top {
@@ -53,9 +68,9 @@ img {
       color: #333;
       text-decoration: none;
     }
-    a:hover {
-      background: #fff;
-    }
+    // a:hover {
+    //   background: #fff;
+    // }
     a.active {
       background: #00AC7F;
       color: #fff;
