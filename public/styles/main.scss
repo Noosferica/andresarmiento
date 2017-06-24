@@ -1,5 +1,7 @@
+@import 'materialize'; 
 
-@import 'angular-material';
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 
  h1 {
@@ -25,7 +27,15 @@
   text-align: center;
 
 }
+.ab {
+  top: -5px;
+  left: -5px;
+  z-index: 3
+}
 
+.abc {
+  z-index: -3
+}
   a {
     color: white;
   }
@@ -42,7 +52,8 @@ section {
 #section-0 {
   background: url(https://unsplash.it/1080/720?image=901) no-repeat;
   background-size: cover;
-  min-height: 60em;
+  min-height: 100px;
+   
 }
 
 #section-1 {
@@ -145,13 +156,39 @@ img {
       color: #fff;
       cursor: pointer;
     }
-    #container {
-      overflow: auto;
-      height: 400px;
-      padding: 0;
-      margin: 10px 0 20px 0;
-    }
+    // #container {
+    //   overflow: auto;
+    //   height: 400px;
+    //   padding: 0;
+    //   margin: 10px 0 20px 0;
+    // }
 
 .toolbar {
   opacity: 0.3;
+}
+
+.pulse {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+// pukse 
+
+.gps_ring {
+    border: 3px solid #999;
+    -webkit-border-radius: 30px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    left:500px;
+    top:30px;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
 }

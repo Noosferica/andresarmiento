@@ -10,8 +10,8 @@ import 'angular-resource';
 import 'angular-animate';
 import 'angular-sanitize';
 import 'angular-messages';
-import 'angular-material';
-import 'angular-material-icons';
+
+
 import 'angular-moment';
 import 'angular-scroll';
 import 'moment';
@@ -26,8 +26,6 @@ const requires = [
   'ngAnimate',
   'ngAria',
   'ngMessages',
-  'ngMaterial',
-  'ngMdIcons',
   'ngSanitize',
   'duScroll',
   'app.components',

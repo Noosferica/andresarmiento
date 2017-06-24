@@ -1,13 +1,7 @@
-function AppConfig($httpProvider, $stateProvider, $locationProvider, $urlRouterProvider, $mdThemingProvider) {
+function AppConfig($httpProvider, $stateProvider, $locationProvider, $urlRouterProvider) {
   'ngInject';
   
 
-  $mdThemingProvider.theme('default')
-       .primaryPalette('purple', {
-        'default': '500',
-        'hue-1': '700'
-      }) 
-       .accentPalette('light-green');
 
 // $httpProvider.interceptors.push(authInterceptor);
 
